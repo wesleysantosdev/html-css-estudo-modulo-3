@@ -44,6 +44,10 @@ section{
     padding-left: 30px;
 }
 
+section > p{
+    padding-bottom: 2rem;
+}
+
 .normal{
     background-color: #fff;
     color: black;
@@ -52,12 +56,27 @@ section{
 .image{
     background-color: rgb(58, 57, 57);
     color: #fff;
+    box-shadow: inset 6px 6pc 13px 0px rgba(0, 0, 0, 0.473);
+    /*parallax effect */
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 .image > p{
     display: inline-block;
     padding: 5px;
-    background-color: rgba(0, 0, 0, 0.233);
+    background-color: rgba(0, 0, 0, 0.5);
+    text-shadow: 1px 1px 0px black;
+}
+
+#img01{
+    background-image: url('imagens/background001.jpg');
+    background-position: right center;  
+}
+
+#img02{
+    background-image: url('imagens/background002.jpg');
+    background-position: right center;
 }
 
 footer{
