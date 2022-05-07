@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400;500;600&display=swap');
+
 *{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: 'Noto Sans', sans-serif;
 }
 
 html, body{
@@ -52,7 +55,8 @@ section{
 }
 
 .image > p{
-    width: 400px;
+    display: inline-block;
+    padding: 5px;
     background-color: rgba(0, 0, 0, 0.233);
 }
 
